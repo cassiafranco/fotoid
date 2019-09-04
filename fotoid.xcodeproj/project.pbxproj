@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A4A3068523202AC400744D5E /* EffectsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A3068423202AC400744D5E /* EffectsCollectionViewCell.swift */; };
 		A4FAA4A5231B131E0054B919 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FAA4A4231B131E0054B919 /* AppDelegate.swift */; };
 		A4FAA4A7231B131E0054B919 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FAA4A6231B131E0054B919 /* ViewController.swift */; };
 		A4FAA4AA231B131E0054B919 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4FAA4A8231B131E0054B919 /* Main.storyboard */; };
 		A4FAA4AC231B13200054B919 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4FAA4AB231B13200054B919 /* Assets.xcassets */; };
 		A4FAA4AF231B13200054B919 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4FAA4AD231B13200054B919 /* LaunchScreen.storyboard */; };
+		A4FAA4B7231B28050054B919 /* EffectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FAA4B6231B28050054B919 /* EffectsViewController.swift */; };
+		A4FAA4B9231B28480054B919 /* FinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FAA4B8231B28480054B919 /* FinalViewController.swift */; };
+		A4FAA4BB231B42720054B919 /* FilterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FAA4BA231B42720054B919 /* FilterManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A4A3068423202AC400744D5E /* EffectsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectsCollectionViewCell.swift; sourceTree = "<group>"; };
 		A4FAA4A1231B131E0054B919 /* fotoid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fotoid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4FAA4A4231B131E0054B919 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4FAA4A6231B131E0054B919 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,9 @@
 		A4FAA4AB231B13200054B919 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4FAA4AE231B13200054B919 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4FAA4B0231B13200054B919 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4FAA4B6231B28050054B919 /* EffectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectsViewController.swift; sourceTree = "<group>"; };
+		A4FAA4B8231B28480054B919 /* FinalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalViewController.swift; sourceTree = "<group>"; };
+		A4FAA4BA231B42720054B919 /* FilterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,10 @@
 				A4FAA4A4231B131E0054B919 /* AppDelegate.swift */,
 				A4FAA4A6231B131E0054B919 /* ViewController.swift */,
 				A4FAA4A8231B131E0054B919 /* Main.storyboard */,
+				A4FAA4BA231B42720054B919 /* FilterManager.swift */,
+				A4FAA4B6231B28050054B919 /* EffectsViewController.swift */,
+				A4A3068423202AC400744D5E /* EffectsCollectionViewCell.swift */,
+				A4FAA4B8231B28480054B919 /* FinalViewController.swift */,
 				A4FAA4AB231B13200054B919 /* Assets.xcassets */,
 				A4FAA4AD231B13200054B919 /* LaunchScreen.storyboard */,
 				A4FAA4B0231B13200054B919 /* Info.plist */,
@@ -135,8 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4FAA4BB231B42720054B919 /* FilterManager.swift in Sources */,
 				A4FAA4A7231B131E0054B919 /* ViewController.swift in Sources */,
+				A4FAA4B9231B28480054B919 /* FinalViewController.swift in Sources */,
+				A4A3068523202AC400744D5E /* EffectsCollectionViewCell.swift in Sources */,
 				A4FAA4A5231B131E0054B919 /* AppDelegate.swift in Sources */,
+				A4FAA4B7231B28050054B919 /* EffectsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +308,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.project.iOS.fotoid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,7 +326,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.project.iOS.fotoid;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
